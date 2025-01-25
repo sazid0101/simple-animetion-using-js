@@ -5,7 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    #large{
+        margin-top: 50px;
+        margin-left: 50px;
+        width: 400px;
+        height: 400px;
+        position: relative;
+        background: yellow;
+        }
+    #small{
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        background-color: red;
+        }
+        #btn{
+            margin-left: 50px;
+            margin-top: 20px;
+            color: blue;
+            font-size: 20px;
+        }
+</style>
 <body>
-    <p>hello</p>
+   <div id="large">
+    <div id="small"></div>
+   </div>
+   <button id ="btn" onclick="myMove()">click me</button>
+   <script src="/index.js"></script>
 </body>
 </html>
